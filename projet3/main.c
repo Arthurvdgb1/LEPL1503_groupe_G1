@@ -53,10 +53,10 @@ void check(long num){
         printf("%ld\n",list->value);
         list=list->next;
     }
-    printf("%ld\n",list->value);
+    //printf("%ld\n",list->value);
 }
 
 int main() {
-    check(1021406);
+    check(13483);
     return 0;
 }
